@@ -30,6 +30,9 @@ module.exports = {
       unknownContextCritical: false,
       unknownContextRegExp: /\/cesium\/cesium\/Source\/Core\/buildModuleUrl\.js/
       // unknownContextRegExp: //cesium/cesium/Source/Core/buildModuleUrl.js/
+    },
+    amd: {
+      toUrlUndefined: true
     }
   }
 }
